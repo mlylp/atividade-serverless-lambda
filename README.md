@@ -84,3 +84,11 @@ O custo total fica em **US$ 0,41** (cerca de 41 centavos de dólar):
 **5. Em que parte do Rota Vital uma função assim faria sentido, e em qual não faria?**  
 - **Onde faz sentido:** Em ações rápidas que acontecem só de vez em quando, como gerar uma guia de pedido de sangue (`POST /guias`), validar um cadastro ou mandar um alerta rápido para o hospital quando uma bolsa sair para entrega.  
 - **Onde não faz sentido:** No rastreamento ao vivo do GPS das ambulâncias/veículos, porque o envio de localização acontece sem parar o tempo todo (o que sairia caro e precisaria de conexão aberta), nem em cálculos muito pesados de rotas que demorem mais de 15 minutos para terminar.
+
+## Uso de IA
+
+Em conformidade com a política institucional **PO-CESAR-021**, declaro o uso de Inteligência Artificial Generativa como ferramenta de apoio nesta atividade:
+
+- **Ferramenta:** Google Gemini.
+- **Finalidade:** Apoio na resolução de erros de configuração do ambiente local (Docker e autenticação no GitHub), revisão da estrutura do `README.md` e explicação didática sobre os experimentos.
+- **Validação:** Todos os comandos, alterações no código, cálculos de custo e respostas técnicas foram conferidos manualmente, testados e executados no terminal local, com os resultados reais registrados na pasta `evidencias/`.
