@@ -75,11 +75,11 @@ Com `demorar = true`, o código esperou 5 segundos e passou do limite de 3 segun
 **4. Com os preços de `us-east-1` da aula (US$ 0,20 por milhão de requisições e US$ 0,0000166667 por GB-s), quanto custa um milhão de execuções desta função com 128 MB e 100 ms? Mostrem a conta.**  
 O custo total fica em **US$ 0,41** (cerca de 41 centavos de dólar):
 - **Preço pelas chamadas:** 1 milhão de chamadas = **US$ 0,20**
-- **Memória em GB:** $128\text{ MB} / 1024 = 0,125\text{ GB}$
-- **Tempo em segundos:** $100\text{ ms} = 0,1\text{ s}$
-- **Uso total (GB-s):** $1.000.000 \times 0,125 \times 0,1 = 12.500\text{ GB-s}$
-- **Preço pelo processamento:** $12.500 \times 0,0000166667 = \text{US\$ } 0,2083$
-- **Soma final:** $\text{US\$ } 0,20 + \text{US\$ } 0,2083 = \mathbf{\text{US\$ } 0,4083}$ (arredondando, **US$ 0,41**).
+- **Memória em GB:** 128 MB / 1024 = **0,125 GB**
+- **Tempo em segundos:** 100 ms = **0,1 s**
+- **Uso total (GB-s):** 1.000.000 × 0,125 × 0,1 = **12.500 GB-s**
+- **Preço pelo processamento:** 12.500 × US$ 0,0000166667 = **US$ 0,2083**
+- **Soma final:** US$ 0,20 + US$ 0,2083 = **US$ 0,4083** (arredondando, **US$ 0,41**).
 
 **5. Em que parte do Rota Vital uma função assim faria sentido, e em qual não faria?**  
 - **Onde faz sentido:** Em ações rápidas que acontecem só de vez em quando, como gerar uma guia de pedido de sangue (`POST /guias`), validar um cadastro ou mandar um alerta rápido para o hospital quando uma bolsa sair para entrega.  
