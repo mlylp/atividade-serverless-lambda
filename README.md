@@ -1,4 +1,4 @@
-# Atividade Individual 1 · Serverless com AWS SAM
+# Atividade Individual 1 SO · Serverless com AWS SAM
 
 Aplicação serverless desenvolvida em Python 3.12 utilizando o **AWS Serverless Application Model (AWS SAM)** e **Docker** para emulação local de uma função AWS Lambda integrada ao API Gateway (rota `POST /guias`).
 
